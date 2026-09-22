@@ -45,4 +45,12 @@ Next after closing now its time to remove or Drop PDB using this command:
 
 Then use the command SHOW PDBS; to verify if the PDB is deleted
 
-[Second Task Evidence]()
+[Second Task Evidence](screenshots/pdb_deletion/2.pdb%20deletion%20and%20verification.png)
+
+## THIRD TASK: Oracle Enterprise Manager (OEM)
+Objective for this task was to log into and Access the OEM with Dashboard reflecting my Oracle environment
+and the completed PDB tasks and Even Username visible on dashboard
+
+Using SYS credentials and my OEM Address: https://localhost:5500/em tasks successfully completed
+as required [Evidence]()
+
