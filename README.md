@@ -10,12 +10,39 @@ The assignment was completed using Oracle Database 21c Enterprise Edition on Win
 
 ## 3. EXPLANATION OF EACH TASK
 
-## First task: Pdb_creation
+## First task: PDB Creation
 Objective,
 The objective of this task was to create a new Pluggable Database (PDB) within the Oracle Container Database (CDB).
 
 Procedure,
-On step by step procedure you have to make sure you are connected as SYS USER within the main container database (CDB$ROOT),
-using command ' SHOW CON_NAME;' and verify if you are connected to CDB$ROOT in order to be allowed to create a PDB.
+On step by step procedure you have to make sure you are connected as SYS USER within the main container database (CDB$ROOT).
+By using command ' SHOW CON_NAME;' to Display and verify if you are connected to CDB$ROOT in order to be allowed to create a PDB.
+
+then i used the next command to create the PDB and the user and set the password and check if is well created
+
+CREATE PLUGGABLE DATABASE ke_pdb_20251SEN081
+ADMIN USER kelly_plsqlauca_20251SEN081 IDENTIFIED BY xxxxx
+FILE_NAME_CONVERT = (
+    'C:\ORACLE\ORADATA\ORCL\PDBSEED',
+    'C:\ORACLE\ORADATA\ORCL\ke_pdb_20251SEN081'
+);
 [PDB Creation Evidence](screenshots/pdb_creation/1.Connection%20and%20Pdb_Creation.png)
 
+Next step is to OPEN it and PUT IN SAVE STATE so that will be immediately in open state available to interact after opening oracle
+[PDB Opening Evidence](screenshots/pdb_creation/2.pdb%20opening%20and%20access.png)
+
+
+
+## Second Task: PDB Deletion
+Objective of the task was to delete a created PDB so that it no longer available in the my database
+
+Procedures number 1 is to use the command to remove the PDB you want to delete from Open mode to
+Mount or closed mode by using command:
+'ALTER PLUGGABLE DATABASE ke_pdb_20251SEN081 CLOSE IMMEDIATE;'
+
+Next after closing now its time to remove or Drop PDB using this command:
+'DROP PLUGGABLE DATABASE ke_pdb_20251SEN081 INCLUDING DATAFILES;'
+
+Then use the command SHOW PDBS; to verify if the PDB is deleted
+
+[Second Task Evidence]()
