@@ -72,7 +72,9 @@ I declare that the work presented in this assignment is my own work. I have foll
 ## Submission details block
 
 Repository Link: [https://github.com/kellyleondry/oracle_pdb_ass_II_20251SEN081_Kelly_Leondry]
-PDB Name Created: ke_pdb_20251SEN081
+
+PDB Name Created: ke_pdb_20251SEN081 
+
 Issues Encountered: Yes
 
 
