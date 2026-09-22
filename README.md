@@ -26,6 +26,7 @@ FILE_NAME_CONVERT = (
     'C:\ORACLE\ORADATA\ORCL\PDBSEED',
     'C:\ORACLE\ORADATA\ORCL\ke_pdb_20251SEN081'
 );
+
 [PDB Creation Evidence](screenshots/pdb_creation/1.Connection%20and%20Pdb_Creation.png)
 
 Next step is to OPEN it and PUT IN SAVE STATE so that will be immediately in open state available to interact after opening oracle
@@ -43,8 +44,9 @@ Mount or closed mode by using command:
 Next after closing now its time to remove or Drop PDB using this command:
 'DROP PLUGGABLE DATABASE ke_pdb_20251SEN081 INCLUDING DATAFILES;'
 
-Then use the command SHOW PDBS; to verify if the PDB is deleted
-[Second Task Evidence](screenshots/2.deletion_and_verification.png)
+Then use the command SHOW PDBS; to verify if the PDB is deleted.
+
+[Second Task Evidence](screenshots/pdb_deletion/2.deletion_and_verification.png)
 
 ## THIRD TASK: Oracle Enterprise Manager (OEM)
 Objective for this task was to log into and Access the OEM with Dashboard reflecting my Oracle environment
