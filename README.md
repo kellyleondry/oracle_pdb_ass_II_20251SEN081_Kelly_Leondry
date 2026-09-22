@@ -44,7 +44,7 @@ Next after closing now its time to remove or Drop PDB using this command:
 'DROP PLUGGABLE DATABASE ke_pdb_20251SEN081 INCLUDING DATAFILES;'
 
 Then use the command SHOW PDBS; to verify if the PDB is deleted
-[Second Task Evidence](screenshots/pdb_deletion/2.pdb%20deletion%20and%20verification.png)
+[Second Task Evidence](screenshots/2.pdb%20deletion%20and%20verification.png)
 
 ## THIRD TASK: Oracle Enterprise Manager (OEM)
 Objective for this task was to log into and Access the OEM with Dashboard reflecting my Oracle environment
