@@ -69,6 +69,10 @@ This was resolved by making more research and understanding not memorising only 
 
 I declare that the work presented in this assignment is my own work. I have followed the academic integrity requirements of the course and have appropriately acknowledged any external resources used. The commands, configurations, screenshots, and explanations presented in this repository represent the work completed for this assignment.
 
-## 
+## Submission details block
+
+Repository Link: [https://github.com/kellyleondry/oracle_pdb_ass_II_20251SEN081_Kelly_Leondry]
+PDB Name Created: ke_pdb_20251SEN081
+Issues Encountered: Yes
 
 
