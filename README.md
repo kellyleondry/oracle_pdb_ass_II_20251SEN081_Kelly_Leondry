@@ -17,5 +17,5 @@ The objective of this task was to create a new Pluggable Database (PDB) within t
 Procedure,
 On step by step procedure you have to make sure you are connected as SYS USER within the main container database (CDB$ROOT),
 using command ' SHOW CON_NAME;' and verify if you are connected to CDB$ROOT in order to be allowed to create a PDB.
-Reference
+![PDB Creation Evidence]()
 
